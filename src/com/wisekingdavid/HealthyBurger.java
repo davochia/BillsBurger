@@ -50,5 +50,6 @@ public class HealthyBurger extends HamBurger {
                 "Bon appetit!");
 
         System.out.println("------------------" + getClass().getSimpleName() +"-----------------------");
+        System.out.println();
     }
 }

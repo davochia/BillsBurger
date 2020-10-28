@@ -66,12 +66,14 @@ public class HamBurger  {
 
     public void makeBurger(){
 
+
         System.out.println("Bread choice: " + this.breadType + "\n" +
                 "Meat choice: " + this.meatType + "\n" + "vegetables and cream." + "\n" +
                 "Total price = " + this.price + "$\n" +
                 "Bon appetit!");
 
         System.out.println("------------------" + getClass().getSimpleName() +"-----------------------");
+        System.out.println();
 
     }
 
